@@ -4,6 +4,8 @@ ExperimentGuard 是一个面向游戏版本迭代的轻量实验分析项目。�
 
 项目只使用 Python 标准库。克隆后不需要安装数据科学依赖，即可运行测试和完整演示。
 
+[在线查看可复现示例报告](https://yuezhimin03.github.io/experiment-guard/) · [查看 CI](https://github.com/yuezhimin03/experiment-guard/actions)
+
 ## 为什么做这个项目
 
 只比较两组均值很容易给出错误结论。真实版本评估至少需要回答：
@@ -108,4 +110,3 @@ flowchart LR
 ## License
 
 [MIT](LICENSE)
-
