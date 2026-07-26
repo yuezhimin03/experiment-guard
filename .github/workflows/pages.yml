@@ -26,7 +26,9 @@ jobs:
         with:
           python-version: "3.12"
       - name: Build reproducible sample report
-        run: python -m experiment_guard.cli demo --users 20000 --output-dir public
+        run: |
+          python -m experiment_guard.cli demo --users 20000 --output-dir public
+          cp public/report.html public/index.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
