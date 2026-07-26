@@ -2,7 +2,7 @@
 
 ExperimentGuard 是一个面向游戏版本迭代的轻量实验分析项目。它把 **分流质量、主指标、护栏指标、功效分析、CUPED 降方差和提前偷看控制** 串成一条可复现流水线，并输出可以直接发给策划、运营和研发的静态 HTML 报告。
 
-项目只使用 Python 标准库。克隆后不需要安装数据科学依赖，即可运行测试和完整演示。
+项目支持 Python 3.10+，只使用标准库。克隆后不需要安装数据科学依赖，即可运行测试和完整演示。
 
 [在线查看可复现示例报告](https://yuezhimin03.github.io/experiment-guard/) · [查看 CI](https://github.com/yuezhimin03/experiment-guard/actions)
 
